@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of Vaishnavi Surve - Aspiring Full Stack Developer & Computer Engineering Student. Showcasing web development projects, technical skills, and academic background.">
+    <title>Vaishnavi Surve | Aspiring Full Stack Developer Portfolio</title>
+    <!-- Google Fonts: Inter & Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Skip to Content Link for Accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header & Navigation -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo" aria-label="Portfolio Home">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">Vaishnavi Surve<span class="accent-dot">.</span></span>
+            </a>
+
+            <!-- Mobile Navigation Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNav">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="primaryNav" aria-label="Primary Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn-sm btn-primary">Hire Me</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <!-- 1. HOME / HERO SECTION -->
+        <section class="hero-section section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge hero-badge">
+                        <span class="pulse-dot"></span> Available for Internships & Fresher Roles
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight-text">Vaishnavi Surve</span>
+                    </h1>
+                    <p class="hero-subtitle">Aspiring Full Stack Developer &amp; Computer Engineering Student</p>
+                    <p class="hero-description">
+                        Passionate about crafting responsive, user-centric web applications and building solid backend foundations. Equipped with strong computer engineering fundamentals, data structures, and modern web development practices.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span>
+                            <svg class="icon-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <span class="social-label">Connect:</span>
+                        <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile (vaishnavisurve29)">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        </a>
+                        <a href="https://linkedin.com/in/[YOUR_LINKEDIN]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile (Vaishnavi Surve - replace [YOUR_LINKEDIN] with your URL slug)">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                        <a href="mailto:vaishnavisurve@65gmail.com" class="social-icon" aria-label="Send an Email to vaishnavisurve@65gmail.com">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="avatar-card">
+                        <div class="code-preview-window">
+                            <div class="window-header">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="window-title">developer.json</span>
+                            </div>
+                            <pre class="code-body"><code>{
+  <span class="code-key">"name"</span>: <span class="code-str">"Vaishnavi Surve"</span>,
+  <span class="code-key">"role"</span>: <span class="code-str">"Full Stack Developer"</span>,
+  <span class="code-key">"major"</span>: <span class="code-str">"Computer Engineering"</span>,
+  <span class="code-key">"passion"</span>: <span class="code-str">"Building web solutions"</span>,
+  <span class="code-key">"status"</span>: <span class="code-str">"Ready for new challenges"</span>
+}</code></pre>
+                        </div>
+                        <div class="floating-badge badge-1">
+                            <span class="badge-icon">⚡</span>
+                            <div>
+                                <strong>Problem Solver</strong>
+                                <span>Data Structures &amp; Web</span>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <span class="badge-icon">💻</span>
+                            <div>
+                                <strong>Full Stack Ready</strong>
+                                <span>Frontend + Backend Core</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT SECTION -->
+        <section class="about-section section bg-alt" id="about">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-tag">Get To Know Me</p>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card-main">
+                        <h3 class="about-subtitle">Background &amp; Aspirations</h3>
+                        <p>
+                            I am a motivated <strong>Computer Engineering student</strong> with a solid grounding in software engineering principles, algorithms, and full-stack web technologies. My enthusiasm lies in taking ideas from initial concepts to functional, accessible web applications.
+                        </p>
+                        <p>
+                            Throughout my coursework and personal projects, I have developed strong analytical thinking, structured coding habits, and an eagerness to continuously learn new technologies. I enjoy understanding how front-end interfaces interact seamlessly with back-end architectures and databases.
+                        </p>
+                        <p>
+                            As a fresher, I am excited to apply my knowledge to real-world projects, collaborate with experienced engineering teams, and deliver meaningful software solutions.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <!-- Education Card -->
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                            </div>
+                            <div class="highlight-info">
+                                <h4>Education</h4>
+                                <p class="highlight-main">Bachelor of Engineering / B.Tech in Computer Engineering</p>
+                                <p class="highlight-sub">Core Courses: Data Structures, OOP, DBMS, Web Technologies</p>
+                            </div>
+                        </div>
+
+                        <!-- Career Interests Card -->
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                            <div class="highlight-info">
+                                <h4>Career Interests</h4>
+                                <p class="highlight-main">Full Stack Web Development &amp; Software Engineering</p>
+                                <p class="highlight-sub">Focus on responsive UI design, RESTful APIs, and database design</p>
+                            </div>
+                        </div>
+
+                        <!-- Core Strengths Card -->
+                        <div class="highlight-card">
+                            <div class="highlight-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                            </div>
+                            <div class="highlight-info">
+                                <h4>Core Strengths</h4>
+                                <p class="highlight-main">Analytical Problem Solving &amp; Clean Code</p>
+                                <p class="highlight-sub">Fast learner, disciplined team player, and detail-oriented</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. SKILLS / TOOLS SECTION -->
+        <section class="skills-section section" id="skills">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-tag">Technical Proficiency</p>
+                    <h2 class="section-title">Skills &amp; Tools</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Technologies and development tools actively utilized in my coursework and student projects.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skill-card">
+                        <div class="skill-category-header">
+                            <div class="cat-icon cat-lang">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            </div>
+                            <h3 class="skill-category-title">Programming Languages</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span class="skill-name">C++</span>
+                                <span class="skill-tag">OOP &amp; Data Structures</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Java</span>
+                                <span class="skill-tag">Object Oriented Programming</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-tag">Scripting &amp; Logic</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">JavaScript (ES6+)</span>
+                                <span class="skill-tag">DOM &amp; Async Programming</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 2: Frontend Development -->
+                    <div class="skill-card">
+                        <div class="skill-category-header">
+                            <div class="cat-icon cat-frontend">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+                            </div>
+                            <h3 class="skill-category-title">Frontend Development</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-tag">Semantic Structure</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-tag">Flexbox &amp; Grid</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Responsive Web Design</span>
+                                <span class="skill-tag">Mobile-First Layouts</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Web Accessibility</span>
+                                <span class="skill-tag">Semantic &amp; ARIA Basics</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Category 3: Database & Tools -->
+                    <div class="skill-card">
+                        <div class="skill-category-header">
+                            <div class="cat-icon cat-tools">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+                            </div>
+                            <h3 class="skill-category-title">Databases &amp; Tools</h3>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <span class="skill-name">SQL</span>
+                                <span class="skill-tag">Queries &amp; Schema Design</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Git &amp; GitHub</span>
+                                <span class="skill-tag">Version Control &amp; Collaboration</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">VS Code</span>
+                                <span class="skill-tag">Primary Code Editor</span>
+                            </li>
+                            <li class="skill-item">
+                                <span class="skill-name">Browser DevTools</span>
+                                <span class="skill-tag">Debugging &amp; Performance</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. PROJECTS SECTION -->
+        <section class="projects-section section bg-alt" id="projects">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-tag">My Work</p>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Practical projects demonstrating my development workflow, frontend capabilities, and programming foundations.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Personal Portfolio Website -->
+                    <article class="project-card">
+                        <div class="project-banner project-banner-1">
+                            <div class="project-type-badge">Live Portfolio / Frontend</div>
+                            <div class="project-mockup-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Developer Portfolio</h3>
+                            <p class="project-desc">
+                                A responsive, accessible personal portfolio website built with semantic HTML5, modern CSS3 layout techniques (Grid/Flexbox), and vanilla JavaScript for smooth navigation and client-side contact validation.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-pill">HTML5</span>
+                                <span class="tech-pill">CSS3 (Grid/Flexbox)</span>
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">Responsive Design</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/vaishnavisurve29/portfolio" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="View Source on GitHub">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Code
+                                </a>
+                                <a href="#home" class="btn btn-sm btn-primary" title="View live portfolio on this page">
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Task & Notes Tracker Web App -->
+                    <article class="project-card">
+                        <div class="project-banner project-banner-2">
+                            <div class="project-type-badge">Coursework / Web Practice</div>
+                            <div class="project-mockup-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Interactive Task &amp; Notes Manager</h3>
+                            <p class="project-desc">
+                                A hands-on JavaScript practice project supporting basic task creation, completion status, category filtering, and browser LocalStorage state persistence.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-pill">JavaScript</span>
+                                <span class="tech-pill">HTML5 / CSS3</span>
+                                <span class="tech-pill">LocalStorage API</span>
+                                <span class="tech-pill">DOM Manipulation</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="GitHub Profile (vaishnavisurve29)">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Code
+                                </a>
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" title="GitHub Profile (vaishnavisurve29)">
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Student Record Management System -->
+                    <article class="project-card">
+                        <div class="project-banner project-banner-3">
+                            <div class="project-type-badge">Coursework / Database Prototype</div>
+                            <div class="project-mockup-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Student Record Management System</h3>
+                            <p class="project-desc">
+                                An academic coursework project applying Object-Oriented Programming (OOP) principles and relational database SQL queries for structured student record keeping.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-pill">C++ / Python</span>
+                                <span class="tech-pill">SQL Database</span>
+                                <span class="tech-pill">File Handling</span>
+                                <span class="tech-pill">OOP</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="GitHub Profile (vaishnavisurve29)">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Code
+                                </a>
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" title="GitHub Profile (vaishnavisurve29)">
+                                    Details
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: Weather & Forecast Web App -->
+                    <article class="project-card">
+                        <div class="project-banner project-banner-4">
+                            <div class="project-type-badge">API Integration / Practice</div>
+                            <div class="project-mockup-icon">
+                                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Weather &amp; Forecast App</h3>
+                            <p class="project-desc">
+                                A frontend API integration practice project using JavaScript Fetch API to query public weather endpoints and display current temperature, humidity, and condition icons.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-pill">JavaScript (Async/Await)</span>
+                                <span class="tech-pill">Fetch API</span>
+                                <span class="tech-pill">CSS3 Flexbox</span>
+                                <span class="tech-pill">JSON Handling</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline" title="GitHub Profile (vaishnavisurve29)">
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                    Code
+                                </a>
+                                <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary" title="GitHub Profile (vaishnavisurve29)">
+                                    Demo
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CONTACT SECTION -->
+        <section class="contact-section section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="section-tag">Let's Connect</p>
+                    <h2 class="section-title">Contact Me</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">
+                        Interested in collaborating, discussing internship opportunities, or have any questions? Feel free to reach out!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Info Side -->
+                    <div class="contact-info-panel">
+                        <h3 class="contact-panel-title">Get In Touch</h3>
+                        <p class="contact-panel-text">
+                            I am actively seeking internship opportunities where I can contribute to projects, grow under mentorship, and build robust software.
+                        </p>
+
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                </div>
+                                <div>
+                                    <span class="detail-label">Email</span>
+                                    <a href="mailto:vaishnavisurve@65gmail.com" class="detail-val">vaishnavisurve@65gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </div>
+                                <div>
+                                    <span class="detail-label">LinkedIn</span>
+                                    <a href="https://linkedin.com/in/[YOUR_LINKEDIN]" target="_blank" rel="noopener noreferrer" class="detail-val" title="LinkedIn Profile (Replace [YOUR_LINKEDIN] with your URL slug)">Vaishnavi Surve (linkedin.com/in/[YOUR_LINKEDIN])</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="detail-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                </div>
+                                <div>
+                                    <span class="detail-label">GitHub</span>
+                                    <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="detail-val">github.com/vaishnavisurve29</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Beginner Scope Note -->
+                        <div class="contact-notice">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                            <span>Client-side validated form. In production, connect this to an email service (such as Formspree/EmailJS) or your custom backend.</span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Side -->
+                    <div class="contact-form-wrapper">
+                        <!-- Submission Success Feedback Box -->
+                        <div class="form-feedback form-feedback-success" id="formSuccessMessage" role="alert" aria-live="polite" style="display: none;">
+                            <div class="feedback-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="feedback-title">Thank you! Your message has been validated.</h4>
+                                <p class="feedback-desc">All required fields were filled correctly. Since this is a client-side frontend project, you can also reach out directly via email at <a href="mailto:vaishnavisurve@65gmail.com"><strong>vaishnavisurve@65gmail.com</strong></a>.</p>
+                            </div>
+                        </div>
+
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <!-- Name Field -->
+                            <div class="form-group">
+                                <label for="name" class="form-label">Full Name <span class="required-star" aria-hidden="true">*</span></label>
+                                <div class="input-wrapper">
+                                    <input 
+                                        type="text" 
+                                        id="name" 
+                                        name="name" 
+                                        class="form-input" 
+                                        placeholder="e.g. Alex Johnson" 
+                                        autocomplete="name" 
+                                        required
+                                        aria-describedby="nameError"
+                                    >
+                                </div>
+                                <span class="error-msg" id="nameError" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Email Field -->
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email Address <span class="required-star" aria-hidden="true">*</span></label>
+                                <div class="input-wrapper">
+                                    <input 
+                                        type="email" 
+                                        id="email" 
+                                        name="email" 
+                                        class="form-input" 
+                                        placeholder="e.g. alex@example.com" 
+                                        autocomplete="email" 
+                                        required
+                                        aria-describedby="emailError"
+                                    >
+                                </div>
+                                <span class="error-msg" id="emailError" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Subject Field (Optional / Helpful) -->
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject <span class="required-star" aria-hidden="true">*</span></label>
+                                <div class="input-wrapper">
+                                    <input 
+                                        type="text" 
+                                        id="subject" 
+                                        name="subject" 
+                                        class="form-input" 
+                                        placeholder="e.g. Internship Opportunity / Collaboration" 
+                                        required
+                                        aria-describedby="subjectError"
+                                    >
+                                </div>
+                                <span class="error-msg" id="subjectError" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Message Field -->
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message <span class="required-star" aria-hidden="true">*</span></label>
+                                <div class="input-wrapper">
+                                    <textarea 
+                                        id="message" 
+                                        name="message" 
+                                        rows="5" 
+                                        class="form-textarea" 
+                                        placeholder="Write your message here..." 
+                                        required
+                                        aria-describedby="messageError"
+                                    ></textarea>
+                                </div>
+                                <span class="error-msg" id="messageError" aria-live="polite"></span>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+                                <span class="btn-text">Send Message</span>
+                                <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="logo footer-logo">
+                    <span class="logo-symbol">&lt;/&gt;</span>
+                    <span class="logo-text">Vaishnavi Surve<span class="accent-dot">.</span></span>
+                </a>
+                <p class="footer-desc">
+                    Computer Engineering Student &amp; Aspiring Full Stack Developer.
+                </p>
+            </div>
+
+            <div class="footer-nav">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h4 class="footer-heading">Social Profiles</h4>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/vaishnavisurve29" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Profile (vaishnavisurve29)">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/[YOUR_LINKEDIN]" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Profile (Vaishnavi Surve - replace [YOUR_LINKEDIN] with your URL slug)">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="mailto:vaishnavisurve@65gmail.com" class="social-icon" aria-label="Send Email to vaishnavisurve@65gmail.com">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-container">
+                <p>&copy; <span id="currentYear">2026</span> Vaishnavi Surve. All rights reserved.</p>
+                <a href="#home" class="back-to-top" aria-label="Back to top">
+                    <span>Back to Top</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript File -->
+    <script src="js/script.js"></script>
+</body>
+</html>
