@@ -8,6 +8,7 @@ A clean, modern, and fully responsive personal portfolio website tailored for **
 - **Developer**: Vaishnavi Surve
 - **GitHub Repository**: [https://github.com/vaishnavisurve29/portfolio](https://github.com/vaishnavisurve29/portfolio)
 - **Live URL (GitHub Pages)**: [https://vaishnavisurve29.github.io/portfolio/](https://vaishnavisurve29.github.io/portfolio/)
+- **LinkedIn Profile**: [https://www.linkedin.com/in/vaishnavi-surve-b51361335](https://www.linkedin.com/in/vaishnavi-surve-b51361335)
 - **Contact Email**: `vaishnavisurve@65gmail.com`
 
 ---
@@ -124,9 +125,3 @@ Open your browser and navigate to `http://localhost:8000`.
 
 ---
 
-## 🔗 Updating Your Exact LinkedIn URL
-
-Once you have your exact LinkedIn URL slug (e.g., `vaishnavi-surve-123456`):
-1. Open `index.html`.
-2. Find `[YOUR_LINKEDIN]` and replace it with your exact URL or slug.
-3. Commit and push the update to GitHub.
